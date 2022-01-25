@@ -1,0 +1,65 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "kits",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "deviceOn",
+          "slots": [],
+          "samples": [
+            "switch on the device",
+            "please make device on",
+            "put device on",
+            "make device on",
+            "device on"
+          ]
+        },
+        {
+          "name": "deviceOff",
+          "slots": [],
+          "samples": [
+            "please turn off the device",
+            "device off",
+            "turn off the device",
+            "make device off"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "2"
+}
